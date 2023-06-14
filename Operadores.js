@@ -118,4 +118,19 @@ elementoArray.forEach(elemento=> elemento.innerHTML = "Troquei os valores escrit
     }
 
     ParOuImpar(number)
+3. Faça um programa que calcule o perímetro de um programa. 
+
+
+let lado1 = parseFloat(prompt("Informe 1° lado em metros"))
+let lado2 = parseFloat(prompt("Informe 2° lado em metros"))
+let lado3 = parseFloat(prompt("Informe 3° lado em metros"))
+
+
+let soma = () => {
+    return lado1+lado2+lado3
+}
+
+console.log(`O Perímetro é ${soma()}`)
+
+4.
 */

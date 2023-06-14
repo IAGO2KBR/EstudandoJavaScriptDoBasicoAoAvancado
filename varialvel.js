@@ -51,4 +51,4 @@ function ConvertaTemperaturaEmCelcius(temperatura) {
     return Celsius.toFixed(3)
 }
 
-console.log(`A temperatua informada em Fahrenheit é na escala Celsius ${ConvertaTemperaturaEmCelcius(temperaturaEmFahrenheit)}`)
+console.log(`A temperatura informada em Fahrenheit é na escala Celsius ${ConvertaTemperaturaEmCelcius(temperaturaEmFahrenheit)}`)
