@@ -27,4 +27,7 @@ aluno1.exibirNomeNotaComArrowFunction()
 
 /* O método exibirNomeNotaComFunction ele utiliza o contexto do setTimeout, logo no console.log estamos
 criando uma nova instância, por isso na saída ocorre undefined, Já exibirNomeNotaComArrowFunction, a Arrow function utiliza 
-o contexto do elemento Pai que é a função aluno.  */
+o contexto do elemento Pai que é a função aluno. 
+
+OBS: Quando for utilizar funções anônimas é preferencial que opte por Arrow Function, diminui os ricos com os Bugs. 
+*/
